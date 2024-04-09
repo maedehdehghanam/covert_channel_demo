@@ -2,8 +2,6 @@
 
 import base64
 
-import dns.message
-import dns.query
 import dns.resolver
 
 dns.resolver.default_resolver = dns.resolver.Resolver(configure=False)
